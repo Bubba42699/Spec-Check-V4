@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="ap.css">
+  <title>Add Product Generator | Spec-Check</title>
+</head>
+<body>
+
+  <h1>Add Product - HTML Generator<br>spec-check.pro</h1>
+ 
+  <label>Product Name:</label>
+  <input type="text" id="productName" placeholder="e.g. Beast Pro RTX 4080">
+  
+  <label>Image File 1 (in /images/ folder):</label>
+  <input type="text" id="productImage1" placeholder="e.g. GPU1.jpeg">
+
+  <label>Image File 2 (in /images/ folder):</label>
+  <input type="text" id="productImage2" placeholder="e.g. GPU2.jpeg">
+
+  <label>Image File 3 (in /images/ folder):</label>
+  <input type="text" id="productImage3" placeholder="e.g. GPU3.jpeg">
+
+  <label>Price:</label>
+  <input type="text" id="productPrice" placeholder="e.g. $2,499.99">
+  
+  <label>Quick Spec Line 1:</label>
+  <input type="text" id="productSpecs1" placeholder="e.g. Intel i9">
+
+  <label>Quick Spec Line 2:</label>
+  <input type="text" id="productSpecs2" placeholder="e.g. RTX 4080">
+
+  <label>Quick Spec Line 3:</label>
+  <input type="text" id="productSpecs3" placeholder="e.g. 32GB RAM">
+
+  <label>Quick Spec Line 4:</label>
+  <input type="text" id="productSpecs4" placeholder="e.g. 2TB SSD">
+  
+  <label>Affiliate Link:</label>
+  <input type="text" id="affiliateLink" placeholder="e.g. https://affiliate-link.com">
+
+  <button onclick="generateProductCard()">Generate HTML</button>
+  
+  <div class="output" id="outputBox"></div>
+
+  <script src="javascrip.js"></script>
+</body>
+</html>

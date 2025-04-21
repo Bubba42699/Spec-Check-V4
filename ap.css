@@ -1,0 +1,35 @@
+body {
+    background-color: #000000;
+    color: rgb(21, 255, 0);
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 8px;
+  }
+  button {
+    background-color: #00ff0d;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  button:hover {
+    background-color: #1b1b1a;
+  }
+  .output {
+    margin-top: 2rem;
+    background: #1a1a1a;
+    padding: 1rem;
+    border-radius: 8px;
+    white-space: pre-wrap;
+  }
